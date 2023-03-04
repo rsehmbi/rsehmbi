@@ -1,6 +1,5 @@
 <img align="right" width="350" height="350" src="https://user-images.githubusercontent.com/45884656/173171548-21401b3a-8818-4526-9708-118e31965fb7.gif">
 
-
 ```python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
@@ -30,7 +29,7 @@ class Raman : GithubUser() {
     init {
         println("About Me: A living machine that turns coffee into code!")
     }
-    
+  
     val prodCodingLang = ["Python", "C#"],
     val developCodingLang = ["Kotlin", "Java", "Javascript", "HTML", "C++"]
     val askMeAbout = ["web dev", "tech", "app dev", "hiking", "workouts"],
@@ -53,3 +52,9 @@ class Raman : GithubUser() {
     favQuote: "It's called VSCode because its you VS your code always!"
 }
 ```
+
+
+### Cerifications:
+
+* [Python REST APIs With FastAPI on Real Python](https://realpython.com/certificates/5b31a000-44d3-413e-bf7d-c5ad0ee36d23/ "Python REST APIs With FastAPI on Real Python")
+* [Main Functions in Python on Real Python](https://realpython.com/certificates/87b0f81c-4dcf-4226-b077-3323e5cb27ef/ "Main Functions in Python on Real Python")
