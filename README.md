@@ -54,7 +54,7 @@ class Raman : GithubUser() {
 ```
 
 
-### Cerifications:
+### Certifications:
 
 * [Python REST APIs With FastAPI on Real Python](https://realpython.com/certificates/5b31a000-44d3-413e-bf7d-c5ad0ee36d23/ "Python REST APIs With FastAPI on Real Python")
 * [Main Functions in Python on Real Python](https://realpython.com/certificates/87b0f81c-4dcf-4226-b077-3323e5cb27ef/ "Main Functions in Python on Real Python")
