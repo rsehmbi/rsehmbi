@@ -4,7 +4,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-
 class SoftwareDeveloper(GithubUser):
 
     def __init__(self):
@@ -31,11 +30,11 @@ class Raman : GithubUser() {
     }
   
     val prodCodingLang = ["Python", "C#"],
-    val developCodingLang = ["Kotlin", "Java", "Javascript", "HTML", "C++"]
-    val askMeAbout = ["web dev", "tech", "app dev", "hiking", "workouts"],
+    val developCodingLang = ["Kotlin", "Java", "Javascript", "C++"]
+    val askMeAbout = ["web dev", "tech", "app dev", "hiking", "workouts", "Cricket"],
     val technologies = {
         frameworks: {
-            frontEnd: ["Angular"]
+            frontEnd: ["Angular", "React"]
             web: ["Django"]
         }
         backEnd: {
@@ -44,7 +43,7 @@ class Raman : GithubUser() {
         mobileApp: {
             native: ["Android Development"]
         },
-        devOps: ["AWS-Glue", "Docker🐳", "Nginx"],
+        devOps: ["AWS-Glue ", "Docker🐳", "Nginx"],
         databases: ["mongo", "MySql", "sqlite" , "postgres"],
         misc: ["Firebase", "Socket.IO", "selenium"]
     },
