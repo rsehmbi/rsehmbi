@@ -52,6 +52,7 @@ class Raman : GithubUser() {
 }
 ```
 
+![Visits Badge](https://badges.pufler.dev/visits/rsehmbi/rsehmbi)
 
 ### Certifications:
 
