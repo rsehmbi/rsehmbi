@@ -1,55 +1,44 @@
-<img align="right" width="350" height="350" src="https://user-images.githubusercontent.com/45884656/173171548-21401b3a-8818-4526-9708-118e31965fb7.gif">
 
-```python
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+```python3
 
 class SoftwareDeveloper(GithubUser):
 
     def __init__(self):
         self.name = "Raman Sehmbi"
         self.role = "Software Developer"
-        self.company = "Imagia Canexia Health"
-        self.language_spoken = ["pa_IN", "en_CA"]
+        self.languages_spoken = ["pa_IN", "en_CA"]
 
+    def get_current_work_experience(self):
+        return "Currently working on safeguarding AI!"
+
+    def get_previous_work_experience(self):
+        return [
+            "Imagia Canexia Health",
+            "ThoughtFarmer",
+        ]
+
+    def get_skills(self):
+        return {
+            "languages": ["Python", "Javascript"],
+            "other": ["Kotlin", "Java", "C#", "C++"],
+            "frontend": ["Angular", "React"],
+            "backend": ["Django", "Flask", "FASTAPI"],
+            "databases: ["mongo", "MySql", "sqlite" , "postgres"],
+        }
+
+    def favQuotes(self):
+        return [
+            "It's called VS Code because its you VS your code always!",
+            "Strive to be uncommon amongst uncommon people",
+        ]    
+    
     def saying_hello(self):
         print("Hello there 👋")
-
+    
 
 i_am = SoftwareDeveloper()
 i_am.saying_hello()
 
-```
-
-```kotlin
-package raman.github.landingpage
-
-class Raman : GithubUser() {
-    init {
-        println("About Me: A living machine that turns coffee into code!")
-    }
-  
-    val prodCodingLang = ["Python", "C#"],
-    val developCodingLang = ["Kotlin", "Java", "Javascript", "C++"]
-    val askMeAbout = ["web dev", "tech", "app dev", "hiking", "workouts", "Cricket"],
-    val technologies = {
-        frameworks: {
-            frontEnd: ["Angular", "React"]
-            web: ["Django"]
-        }
-        backEnd: {
-            js: ["Node", "Express"],
-        },
-        mobileApp: {
-            native: ["Android Development"]
-        },
-        devOps: ["AWS-Glue ", "Docker🐳", "Nginx"],
-        databases: ["mongo", "MySql", "sqlite" , "postgres"],
-        misc: ["Firebase", "Socket.IO", "selenium"]
-    },
-    architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications", "Micro-services"],
-    favQuote: "It's called VSCode because its you VS your code always!"
-}
 ```
 
 ![Visits Badge](https://badges.pufler.dev/visits/rsehmbi/rsehmbi)
